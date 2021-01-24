@@ -1,3 +1,6 @@
+notifications:
+  email:
+    - samalpramod@gmail.com
 sudo: required
 
 services:
