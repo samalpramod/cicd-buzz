@@ -12,7 +12,5 @@ def generate():
 	buzz = generate_buzz.generate_buzz()
 	return render_template('index.html',buzz=buzz)
 	
-	return page
-	
 if __name__ == "__main__":
 	app.run(host='0.0.0.0',port=os.getenv('PORT'))
